@@ -19,16 +19,17 @@
     },
     {
       "id": 3,
-      "title": "Sophie bluel",
-      "description": "Description de la réalisation...",
-      "imageUrl": "Capture.PNG",
+      "title": "Mon vieux grimoire",
+      "description": "Ce projet est issu de ma formation OpenClassrooms. Le sujet était la configuration d'un backend pour un site de référencement de livres comprenant la gestion d'identification des utilisateur et la gestion des différentes actions pour les livres. ",
+      "imageUrl": "/galerie/Animation_grimoire.gif",
+      "coverImageUrl": "/galerie/Capture_grimoire.PNG",
       "link": "lien-vers-la-page",
       "techno": ["TechnoA", "TechnoB"]
     },
     {
       "id": 4,
       "title": "Labo'Inspi",
-      "description": "Site web développé pour une décoratrice de mariage. Spécialiste du Wedding-Design",
+      "description": "Site web développé pour une décoratrice de mariage. Le site met en avant ses réalisations professionnels, ses tarifications ainsi que toutes les informations necessaires à sa communication. ",
       "imageUrl": "/galerie/Animation_laboinspi.gif",
       "coverImageUrl": "/galerie/Capture_laboinspi.PNG",
       "link": "https://bryanlepine.github.io/laboinspi/",

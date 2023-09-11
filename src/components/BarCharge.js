@@ -29,16 +29,10 @@ function BarCharge() {
 
   return (
     <div className="bar-progress-charge-container">
-      {loadingComplete ? (
-        <button className="choisir-projet-text">Choisir un projet <i class="fas fa-arrow-right" aria-hidden='true'></i></button>
-      ) : (
-        <>
           <div className="progress-text">{`${progress}%`}</div>
           <div className="bar-charge-container">
             <div className="bar-charge" style={barreStyle}></div>
           </div>
-        </>
-      )}
     </div>
   );
 }
