@@ -1,0 +1,46 @@
+.loading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 100%;
+  }
+  
+  .loading-bar {
+    width: 100%; /* Barre de chargement pleine au départ */
+    height: 8px;
+    background-color: #4caf50; /* Couleur de la barre de chargement */
+    transition: width 2s linear; /* Utilisez une transition linéaire pour un remplissage uniforme */
+    transform-origin: left; /* Définir l'origine de transformation à gauche */
+  }
+  
+  .loading-bar.complete {
+    width: 100%;
+    background-color: #4caf50; /* Couleur de la barre de chargement */
+    transform-origin: right; /* Définir l'origine de transformation à droite */
+  }
+  
+  .loading-container p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: textFadeIn 0.5s ease-in-out 2s forwards;
+  }
+  
+  @keyframes textFadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

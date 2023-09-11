@@ -1,0 +1,43 @@
+.button-ambiance {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    border: 1px solid;
+    border-radius: 999px;
+    padding: 10px 30px;
+    position: relative;
+    text-transform: uppercase;
+    transition: box-shadow 0.5s, background-color 0.5s, color 0.5s;
+    
+  }
+  
+  @keyframes scale {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1); 
+    }
+  }
+  
+  .button-ambiance:hover {
+    animation: pulse 0.5s infinite alternate;
+    box-shadow: 0 0 0 2em transparent;
+    background-color: #4F95DA; 
+    color: #fff; 
+  }
+  
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 0 0 #fff;
+      transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1); 
+      }
+
+
+  }

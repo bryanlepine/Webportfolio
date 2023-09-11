@@ -1,0 +1,17 @@
+.HomeWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  margin: 0px auto;
+
+  .Home {
+    margin: 0 auto;
+    width: 1440px;
+  }
+}
+
+.wave-animation{
+  height: 100%;
+  max-height: 500px;
+}

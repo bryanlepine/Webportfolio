@@ -1,0 +1,24 @@
+.leaf-animation {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .leaf {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    color: #73b74c; /* Couleur de la feuille */
+    animation: float 5s linear infinite;
+    top: 50%; /* Placez les feuilles légèrement au-dessus du haut de l'écran */
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translateX(0) translateY(0) rotate(0deg);
+    }
+    100% {
+      transform: translateX(100vw) translateY(0) rotate(360deg);
+    }
+  }

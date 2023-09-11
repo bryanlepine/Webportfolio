@@ -1,0 +1,95 @@
+@import 'Main';
+
+.about-wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+
+  .about {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1240px;
+    align-content: center;
+    gap: 40px;
+  }
+}
+
+.description-wrapper-all {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+
+  .description-wrapper-apropos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    max-width: 1023px;
+    width: 100%;
+  }
+}
+
+.wrapper-description-button {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  width: 100%;
+
+  .button-description-apropos {
+    display: flex;
+    justify-content: center;
+    height: 52px;
+    max-width: 100%;
+    background-color: $primary-color;
+    border-radius: 5px;
+    border-style: none;
+    align-items: center;
+    width: 100%;
+
+    .description-title {
+      color: $secondary-color;
+      width: 900px;
+      max-width: 100%;
+      font-weight: 500;
+      font-size: 24px;
+      display: flex;
+      margin: 10px;
+      align-items: center;
+    }
+  }
+
+  .description-about {
+    
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    background-color: $background-color;
+    width: 100%;
+    max-width: 995px;
+    align-items: center;
+    line-height: 150%;
+    margin: 0px 15px ;
+    color: $primary-color;
+    height: 0;
+    transition: height 0.3s ease-in-out;
+  }
+  .description-about.active{
+    height: 100px;
+  }
+  .arrow-rotate {
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .rotate180 {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .rotateReverse {
+    transform: rotate(0deg);
+    transition: transform 0.3s ease-in-out;
+  }
+}

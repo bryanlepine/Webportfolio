@@ -1,0 +1,59 @@
+.bar-charge-container {
+    position: absolute;
+    top: 45%; /* Centrage vertical */
+    left: 50%; /* Centrage horizontal */
+    transform: translate(-50%, -50%); /* Centrage précis */
+    width: 80%; /* Ajustez la largeur selon vos préférences */
+    max-width: 400px; /* Largeur maximale */
+    text-align: center; /* Centrage du texte */
+    z-index: 1;
+    background-color: rgb(165, 165, 165);
+  }
+  
+  .bar-charge {
+    height: 20px; /* Hauteur de la barre de chargement */
+    background-color: blue; /* Couleur de la barre de chargement */
+    position: relative; /* Pour le positionnement du texte du pourcentage */
+    border-radius: 5px;
+  }
+  
+  .progress-text {
+    position: absolute;
+    top: 40%; /* Centrage vertical du texte */
+    left: 50%; /* Centrage horizontal du texte */
+    transform: translate(-50%, -50%); /* Centrage précis du texte */
+    color: rgb(13, 13, 13); /* Couleur du texte du pourcentage */
+    font-weight: bold; /* Style du texte du pourcentage */
+    z-index: 1;
+  }
+
+  .choisir-projet-text {
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(116, 247, 155);
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 30%; /* Centrage vertical du texte */
+    left: 37%; /* Centrage horizontal du texte */
+    transform: translate(-50%, -50%); /* Centrage précis du texte */
+    border-radius: 5px;
+    font-family: Coda;
+    animation: floating 2s ease-in-out infinite; /* Applique l'animation de flottement */
+
+    .fa-arrow-right{
+        margin-left: 20px;
+    }
+  }
+
+  @keyframes floating {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px); /* Ajustez la valeur de déplacement vers le haut selon vos préférences */
+    }
+  }

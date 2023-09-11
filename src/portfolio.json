@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "title": "Agence Kasa",
+      "description": "Projet créé lors de ma formation OpenClassrooms en développement front end. Il s'agissait de créer le front end react d'une application de réservation d'hébergements en ligne",
+      "imageUrl": "/galerie/Animation-kasa.gif",
+      "coverImageUrl": "/galerie/Capture_kasa.PNG",
+      "link": "https://bryanlepine.github.io/KASA-react/",
+      "techno": ["Html", "Scss", "React", "Java-script"]
+    },
+    {
+      "id": 2,
+      "title": "Booki",
+      "description": "Booki est un site de réservation en ligne de logement. Le premier projet réalisé pour la formation développeur web sur OpenClassRoom. Il s'agit d'un projet pour se familiariser avec le front-end en créant une page d'acceuil à partir d'une maquette. ",
+      "imageUrl": "/galerie/Animation_booki.gif",
+      "coverImageUrl": "/galerie/Capture_booki.PNG",
+      "link": "https://bryanlepine.github.io/project-booki/",
+      "techno": ["Html", "Css"]
+    },
+    {
+      "id": 3,
+      "title": "Sophie bluel",
+      "description": "Description de la réalisation...",
+      "imageUrl": "Capture.PNG",
+      "link": "lien-vers-la-page",
+      "techno": ["TechnoA", "TechnoB"]
+    },
+    {
+      "id": 4,
+      "title": "Labo'Inspi",
+      "description": "Site web développé pour une décoratrice de mariage. Spécialiste du Wedding-Design",
+      "imageUrl": "/galerie/Animation_laboinspi.gif",
+      "coverImageUrl": "/galerie/Capture_laboinspi.PNG",
+      "link": "https://bryanlepine.github.io/laboinspi/",
+      "techno": ["Html", "Scss","Java-script" , "React"]
+    }
+  ]
+  

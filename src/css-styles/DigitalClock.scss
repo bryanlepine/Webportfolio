@@ -1,0 +1,15 @@
+.horloge-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 50px;
+    
+    font-family: Coda;
+    font-size: 30px;
+    letter-spacing: 5px;
+
+   p{
+    margin: 10px ;
+    font-size: 26px;
+   }
+}

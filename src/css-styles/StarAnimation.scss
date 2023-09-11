@@ -1,0 +1,68 @@
+.star-container {
+    position: absolute;
+    width: 100%;
+    max-width: 2000px;
+    height: 70%;
+    z-index: 1;
+ bottom: 30%;
+ overflow: hidden;
+  }
+  
+  .star {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 0;
+    animation: twinkle 2s infinite;
+  }
+  .star-icon {
+    color: white; // Définissez la couleur des étoiles ici
+    font-size:0.3em;
+  }
+
+  @keyframes twinkle {
+    0%, 100% {
+      opacity: 0;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.2);
+    }
+  }
+
+.star-icon2{
+  font-size: 0.8em;
+  color: azure;
+  
+}
+ .star-falling {
+  position: relative; // Pour que les pseudo-éléments soient positionnés par rapport à cette étoile
+  animation: fallingStar 5s linear infinite;
+}
+
+.star-falling::before {
+    content: '';
+    position: absolute;
+    top: -15px; // Ajustez la position verticale de la traînée
+    left: -100px; // Ajustez la position horizontale de la traînée
+    width: 100px; // Ajustez la longueur de la traînée
+    height: 2px; // Ajustez l'épaisseur de la traînée
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+    opacity: 0.4; // Opacité de la traînée
+    transform: rotate(-155deg); // Ajustez l'angle de la traînée
+  }
+  
+  @keyframes fallingStar {
+    0% {
+      opacity: 1;
+      transform: translateY(-100%) translateX(0%);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(100vh) translateX(100vw);
+    }
+  }
+  

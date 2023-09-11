@@ -1,0 +1,36 @@
+@import 'Main';
+
+.logements-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.cards img {
+  width: 100%;
+  max-width: 340px;
+  height: 340px;
+  max-height: 340px;
+  position: relative;
+  filter: brightness(0.8);
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.cards h2 {
+  width: 100%;
+  max-width: 300px;
+  height: 52px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  position: absolute;
+  transform: translate(10%, -150%);
+  display: flex;
+  text-align: left;
+  color: $secondary-color;
+}

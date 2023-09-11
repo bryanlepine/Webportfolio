@@ -1,0 +1,62 @@
+@import 'Main';
+
+
+.hero-slider {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+
+  .slider-image-container {
+    filter: brightness(0.7);
+    width: 100%;
+
+    .slider-image {
+      max-width: 100%;
+      width: 1240px;
+      height: 415px;
+      border-radius: 25px;
+      object-fit: cover;
+    }
+
+    .compteur-frame {
+      position: absolute;
+      display: flex;
+      right: 50%;
+      top: 85%;
+      color: $secondary-color;
+      font-weight: 500;
+      line-height: 26px;
+      size: 18px;
+    }
+  }
+}
+
+.hero-slider button {
+  background: none;
+  border: none;
+}
+
+.previous-slider {
+  position: absolute;
+  top: 39%;
+  left: 10px;
+  cursor: pointer;
+
+  .previous-img {
+    max-width: 40px;
+    max-height: 80px;
+  }
+}
+
+.next-slider {
+  position: absolute;
+  top: 39%;
+  right: 10px;
+  cursor: pointer;
+
+  .next-img {
+    max-width: 40px;
+    max-height: 80px;
+  }
+}

@@ -1,0 +1,119 @@
+.title-apropos{
+    font-size: 40px;
+    font-family: Coda; 
+    text-align: center;
+    
+}
+
+.container-apropos{
+   margin: 0px 0 0px 0 ;
+  background-color: #fcfcfc;
+  padding-bottom: 100px;
+}
+
+.profil-photo{
+    width: 100%;
+    max-width: 300px;
+   
+}
+
+.bio-text{
+  width: 100%;
+  max-width: 730px;
+  height: 360px;
+  position: relative;
+  border: #ccc solid 15px;
+  background-color: rgb(41, 41, 41);
+  display: flex; /* Ajout de flex */
+  justify-content: center; /* Centrer horizontalement */
+  align-items: center; /* Centrer verticalement */
+  border-radius: 5px;
+  color: #c5c5c5;
+    
+    p{
+        font-family: Coda;
+        line-height: 200%;
+        margin: 50px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+}
+
+.bio-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+.bio-text form {
+   width: 100%;
+   max-width: 700px;
+   height: auto;
+    margin: 0 auto;
+    
+    margin: 0 auto;
+    
+    
+  }
+  
+  .bio-text label {
+    font-weight: bold;
+    display: inline-block; /* Place les labels en ligne */
+    width: 100px; /* Largeur fixe pour les labels, ajustez selon vos besoins */
+    margin-top: 10px;
+  }
+  
+  .bio-text input[type="text"] {
+    width: calc(100% - 120px); /* Déduit la largeur des labels */
+    min-width: 125px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: 16px;
+    display: inline-block; /* Place les champs de texte en ligne */
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+    
+  }
+  
+  .bio-text input[type="text"]:read-only {
+    background-color: #d4d4d4;
+    cursor: default; /* Définir le curseur par défaut */
+  }
+  
+  .bio-text p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 20px;
+  }
+  
+ 
+
+    .first-container {
+      width: 100%;
+      max-width: 600px;
+      display: flex;
+      gap: 15px;
+    }
+
+    input[type="text"] {
+        width: 50%;
+    }
+  
+
+  .form-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    label{
+        display: flex;
+        min-width: 105px;
+        margin: 0px 20px 0px 0px;
+    }
+  }

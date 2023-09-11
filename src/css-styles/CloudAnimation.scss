@@ -1,0 +1,38 @@
+
+.cloud-container {
+    position: absolute;
+    width: 100%;
+    max-width: 2000px;
+    height: 70%;
+    z-index: 1;
+    bottom: 30%;
+    overflow: hidden;
+  }
+
+
+  
+  .cloud {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    animation: moveCloud 30s linear infinite;
+    animation-delay: 0s;
+  }
+  
+  .cloud-icon {
+    color: rgb(248, 254, 255);
+    font-size: 3em;
+    
+  }
+
+  @keyframes moveCloud {
+    0% {
+      transform: translateX(-100px);
+    }
+    100% {
+      transform: translateX(100vw);
+    }
+  }
+
+
+  

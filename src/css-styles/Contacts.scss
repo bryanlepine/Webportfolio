@@ -1,0 +1,119 @@
+.title-Contacts{
+    font-size: 40px ;
+    font-family: Coda;
+    text-align: center;
+}
+
+.contact-container{
+    position: relative;
+    background-color: whitesmoke;
+    
+}
+
+.form-container{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+  max-width:  1200px;
+  margin: 0 auto;
+}
+.imprim-container {
+  
+}
+.imprim-form{
+  position: relative;
+    width: 100%;
+    max-width:500px ;
+    height: 270px;
+    z-index: 0; 
+}
+.bloc-container {
+  width: 100%;
+  max-width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 190px;
+  overflow: hidden; 
+}
+.text-imprim.open {
+  top: 0px; 
+}
+.text-imprim{
+  position: absolute;
+    top: -300px; 
+    left: 130px;
+    background-color: white;
+    height: 270px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: top 2s ease;
+    overflow: hidden; /* Masquez le contenu dépassant */
+    z-index: 1; /* Assurez-vous que la feuille est au-dessus de l'image de l'imprimante */
+
+
+  p{
+    font-family: Coda;
+    text-align: center;
+    font-size: 18px;
+    width: 200px;
+    margin: 40px auto;
+  }
+  .fa-arrow-right {
+    align-self: center; 
+    text-align: center;
+    
+  }
+}
+
+@keyframes printing-animation {
+  0% {
+      transform: translateY(50px) scale(0.5);
+      opacity: 0;
+  }
+  100% {
+      transform: translateY(0) scale(1);
+      opacity: 1;
+  }
+}
+
+form {
+    padding: 20px;
+    border-radius: 0px;
+    width: 100%;
+    max-width: 500px;
+    height: 550px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none; /* Supprimer la bordure par défaut */
+    border-radius: 5px; /* Ajouter des bordures arrondies */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ajouter une ombre portée */
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    margin: 0 auto;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}

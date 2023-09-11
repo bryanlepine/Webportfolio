@@ -1,0 +1,84 @@
+@import 'Main';
+
+.hero-wrapper{
+  width: 100%;
+  height: 850px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  z-index: 0;
+  margin-top: 70px;
+}
+
+.line-text-wrapper{
+  display: flex;
+  gap: 10px;
+ 
+}
+
+.hero-title {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 3em;
+  font-family: Montserrat;
+  font-weight: 400;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 40px;
+  z-index: 2;
+
+  .hero-text {
+    margin: 0;
+    font-family: Coda;
+    font-size: 30px;
+    letter-spacing: 5px;
+  }
+}
+
+.hero-title h1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: Coda;
+  font-size: 70px;
+  font-weight: 400;
+  width: 100%;
+  margin: 10px;
+}
+.title-first p {
+  position: relative;
+  color: black;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 30px;
+  margin: 0;
+  
+}
+.title-first{
+  display: flex;
+  align-items:flex-end;
+}
+
+
+.background-illustration{
+
+margin-top: 125px;
+position: relative;
+z-index: 2;
+
+
+}
+.illustration{
+  width: 100%;
+  max-width: 700px;
+}
+
+

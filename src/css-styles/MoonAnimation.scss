@@ -1,0 +1,27 @@
+.Moon-container {
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    transform-origin: center center;
+    animation: floatAndRotate 8s linear infinite;
+    animation-delay: 0s;
+  }
+  
+  .fa-moon {
+    font-size: 5em;
+    color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 2;
+  }
+  
+  @keyframes floatAndRotate {
+    0% {
+      transform: translateY(0) rotate(0deg);
+    }
+    50% {
+      transform: translateY(50px) rotate(0deg);
+    }
+    100% {
+      transform: translateY(0px) rotate(0deg);
+    }
+}

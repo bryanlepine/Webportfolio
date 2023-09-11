@@ -1,0 +1,36 @@
+@import 'Main';
+
+.ErrorWrapper {
+  max-width: 1240px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin: 0 auto;
+  padding: 40px;
+
+  .Error {
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+  }
+}
+
+.wrapper-error-elements {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  gap: 40px;
+}
+
+.wrapper-error-elements h2 {
+  font-size: 200px;
+  color: $primary-color;
+  margin: 0;
+}
+
+.wrapper-error-elements p {
+  color: $primary-color;
+}

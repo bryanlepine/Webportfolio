@@ -1,0 +1,63 @@
+.App {
+  text-align: center; 
+ background-image: url('./fond-sombre-peinture-texture-noire-or.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.App-png{
+  width: 50%;
+  z-index: 2;
+}
+.App2-png{
+  width: 20%;
+  z-index: 1;
+  right: 50%;
+  top: 30%;
+  position: absolute;
+  animation: App-logo-spin infinite 100s linear;
+}
+.App3-png{
+  width: 20%;
+  z-index: 1;
+  right: 30%;
+  top: 0%;
+  bottom: 0%;
+  position: absolute;
+  animation: App-logo-spin infinite 100s linear;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+
+  background-color: black;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
