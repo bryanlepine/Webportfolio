@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/webportfolio/static/css/main.1266ddf8.css",
+    "main.js": "/webportfolio/static/js/main.77416f5c.js",
+    "static/media/inventeur.png": "/webportfolio/static/media/inventeur.f59f456fb3233a5fdf3f.png",
+    "static/media/carte-puce-electronique-droite.png": "/webportfolio/static/media/carte-puce-electronique-droite.7e2fe93d66c3f1e3fcd9.png",
+    "static/media/carte-puce-electronique-gauche.png": "/webportfolio/static/media/carte-puce-electronique-gauche.4d0de0723dd28e0da4e0.png",
+    "static/media/texture imprimante.png": "/webportfolio/static/media/texture imprimante.3a7411d31ebfecef2792.png",
+    "static/media/Screen-Pc.png": "/webportfolio/static/media/Screen-Pc.3d2bcb0d90aa20f2c062.png",
+    "static/media/profil photo yellow.png": "/webportfolio/static/media/profil photo yellow.bed347c7121ed5e3d1e5.png",
+    "static/media/adobe-Illustrator-logo-5.png": "/webportfolio/static/media/adobe-Illustrator-logo-5.4680936aeab358426d82.png",
+    "static/media/premiere-adobe.png": "/webportfolio/static/media/premiere-adobe.3a292a377d40650a0195.png",
+    "static/media/css.png": "/webportfolio/static/media/css.f51b0a653e0ddf354e9b.png",
+    "static/media/html.png": "/webportfolio/static/media/html.7a36e1c8b0fc7aec380a.png",
+    "static/media/js.png": "/webportfolio/static/media/js.bd99658eb8bf650510f8.png",
+    "static/media/react.png": "/webportfolio/static/media/react.7c2a703f3ff5ce686a35.png",
+    "static/media/Adobe_Photoshop_CC_icon.png": "/webportfolio/static/media/Adobe_Photoshop_CC_icon.33821753c0629b734e8f.png",
+    "static/media/Adobe_After_Effects_CC_icon.png": "/webportfolio/static/media/Adobe_After_Effects_CC_icon.d3cf47b860ba48023106.png",
+    "static/media/nodejs.png": "/webportfolio/static/media/nodejs.7973b1c92bc412f30468.png",
+    "static/media/Adobe_InDesign_logo_PNG1.png": "/webportfolio/static/media/Adobe_InDesign_logo_PNG1.1f0fcff39e7895c0c740.png",
+    "index.html": "/webportfolio/index.html",
+    "main.1266ddf8.css.map": "/webportfolio/static/css/main.1266ddf8.css.map",
+    "main.77416f5c.js.map": "/webportfolio/static/js/main.77416f5c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1266ddf8.css",
+    "static/js/main.77416f5c.js"
+  ]
+}
