@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/webportfolio/static/css/main.1266ddf8.css",
-    "main.js": "/webportfolio/static/js/main.77416f5c.js",
+    "main.css": "/webportfolio/static/css/main.bf78cbc5.css",
+    "main.js": "/webportfolio/static/js/main.e828dde7.js",
     "static/media/inventeur.png": "/webportfolio/static/media/inventeur.f59f456fb3233a5fdf3f.png",
     "static/media/carte-puce-electronique-droite.png": "/webportfolio/static/media/carte-puce-electronique-droite.7e2fe93d66c3f1e3fcd9.png",
     "static/media/carte-puce-electronique-gauche.png": "/webportfolio/static/media/carte-puce-electronique-gauche.4d0de0723dd28e0da4e0.png",
@@ -19,11 +19,11 @@
     "static/media/nodejs.png": "/webportfolio/static/media/nodejs.7973b1c92bc412f30468.png",
     "static/media/Adobe_InDesign_logo_PNG1.png": "/webportfolio/static/media/Adobe_InDesign_logo_PNG1.1f0fcff39e7895c0c740.png",
     "index.html": "/webportfolio/index.html",
-    "main.1266ddf8.css.map": "/webportfolio/static/css/main.1266ddf8.css.map",
-    "main.77416f5c.js.map": "/webportfolio/static/js/main.77416f5c.js.map"
+    "main.bf78cbc5.css.map": "/webportfolio/static/css/main.bf78cbc5.css.map",
+    "main.e828dde7.js.map": "/webportfolio/static/js/main.e828dde7.js.map"
   },
   "entrypoints": [
-    "static/css/main.1266ddf8.css",
-    "static/js/main.77416f5c.js"
+    "static/css/main.bf78cbc5.css",
+    "static/js/main.e828dde7.js"
   ]
 }

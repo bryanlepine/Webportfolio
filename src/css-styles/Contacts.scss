@@ -50,8 +50,8 @@
     flex-direction: column;
     align-items: center;
     transition: top 2s ease;
-    overflow: hidden; /* Masquez le contenu dépassant */
-    z-index: 1; /* Assurez-vous que la feuille est au-dessus de l'image de l'imprimante */
+    overflow: hidden; 
+    z-index: 1; 
 
 
   p{

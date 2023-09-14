@@ -18,7 +18,7 @@
     animation: twinkle 2s infinite;
   }
   .star-icon {
-    color: white; // Définissez la couleur des étoiles ici
+    color: white; 
     font-size:0.3em;
   }
 
@@ -39,20 +39,20 @@
   
 }
  .star-falling {
-  position: relative; // Pour que les pseudo-éléments soient positionnés par rapport à cette étoile
+  position: relative;
   animation: fallingStar 5s linear infinite;
 }
 
 .star-falling::before {
     content: '';
     position: absolute;
-    top: -15px; // Ajustez la position verticale de la traînée
-    left: -100px; // Ajustez la position horizontale de la traînée
-    width: 100px; // Ajustez la longueur de la traînée
-    height: 2px; // Ajustez l'épaisseur de la traînée
+    top: -15px; 
+    left: -100px; 
+    width: 100px; 
+    height: 2px; 
     background: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
-    opacity: 0.4; // Opacité de la traînée
-    transform: rotate(-155deg); // Ajustez l'angle de la traînée
+    opacity: 0.4; 
+    transform: rotate(-155deg); 
   }
   
   @keyframes fallingStar {

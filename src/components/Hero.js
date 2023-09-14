@@ -27,7 +27,7 @@ const Hero = () => {
     <section id="accueil" className="hero-wrapper" style={{ backgroundColor: currentColorOption.background }}>
       <div className="hero-title">
         <p className='hero-text' style={{ color: currentColorOption.text }}>
-          Salut, moi c'est Bryan 
+          Salut, je suis Bryan 
         </p>
         <div className='hero-all-title'>
           <div className='title-first'> 

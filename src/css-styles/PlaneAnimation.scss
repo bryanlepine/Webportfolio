@@ -11,21 +11,21 @@
 
 .plane-flying {
   position: absolute;
-  font-size: 1.4em; // Ajustez la taille de l'icône de l'avion
-  color: rgb(195, 195, 195); // Définissez la couleur de l'avion ici
-  animation: flyUp 20s linear infinite; // Ajustez la durée de l'animation si nécessaire
+  font-size: 1.4em; 
+  color: rgb(243, 243, 243); 
+  animation: flyUp 20s linear infinite; 
   
 }
 
 .plane-trail {
   content: '';
   position: absolute;
-  top: calc(100% - 15px); // Positionnez la traînée au bas de l'avion
+  top: calc(100% - 15px); 
   left: -200%;
-  width: 100px; // Ajustez la largeur de la traînée
+  width: 100px; 
   height: 2px;
-  background: linear-gradient(to right, transparent, white); // Utilisez un dégradé pour rendre la traînée transparente à l'arrière
-  opacity: 0.8; // Ajustez l'opacité de la traînée
+  background: linear-gradient(to right, transparent, white); 
+  opacity: 0.8; 
   transform: translateX(-50%);
   
 }

@@ -1,29 +1,29 @@
 .bar-charge-container {
     position: absolute;
-    top: 45%; /* Centrage vertical */
-    left: 50%; /* Centrage horizontal */
-    transform: translate(-50%, -50%); /* Centrage précis */
-    width: 80%; /* Ajustez la largeur selon vos préférences */
-    max-width: 400px; /* Largeur maximale */
-    text-align: center; /* Centrage du texte */
+    top: 45%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    width: 80%; 
+    max-width: 400px; 
+    text-align: center; 
     z-index: 1;
     background-color: rgb(165, 165, 165);
   }
   
   .bar-charge {
-    height: 20px; /* Hauteur de la barre de chargement */
-    background-color: blue; /* Couleur de la barre de chargement */
-    position: relative; /* Pour le positionnement du texte du pourcentage */
+    height: 20px; 
+    background-color: blue; 
+    position: relative; 
     border-radius: 5px;
   }
   
   .progress-text {
     position: absolute;
-    top: 40%; /* Centrage vertical du texte */
-    left: 50%; /* Centrage horizontal du texte */
-    transform: translate(-50%, -50%); /* Centrage précis du texte */
-    color: rgb(13, 13, 13); /* Couleur du texte du pourcentage */
-    font-weight: bold; /* Style du texte du pourcentage */
+    top: 40%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: rgb(13, 13, 13); 
+    font-weight: bold; 
     z-index: 1;
   }
 
@@ -37,12 +37,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 30%; /* Centrage vertical du texte */
-    left: 37%; /* Centrage horizontal du texte */
-    transform: translate(-50%, -50%); /* Centrage précis du texte */
+    top: 30%; 
+    left: 37%; 
+    transform: translate(-50%, -50%); 
     border-radius: 5px;
     font-family: Coda;
-    animation: floating 2s ease-in-out infinite; /* Applique l'animation de flottement */
+    animation: floating 2s ease-in-out infinite; 
 
     .fa-arrow-right{
         margin-left: 20px;
@@ -54,6 +54,6 @@
       transform: translateY(0);
     }
     50% {
-      transform: translateY(-10px); /* Ajustez la valeur de déplacement vers le haut selon vos préférences */
+      transform: translateY(-10px); 
     }
   }

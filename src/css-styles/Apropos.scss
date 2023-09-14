@@ -85,7 +85,8 @@ padding-top: 40px;
   
   .bio-text input[type="text"]:read-only {
     background-color: #d4d4d4;
-    cursor: default; /* Définir le curseur par défaut */
+    cursor: default;
+      
   }
   
   .bio-text p {
@@ -105,6 +106,7 @@ padding-top: 40px;
 
     input[type="text"] {
         width: 50%;
+       
     }
   
 
